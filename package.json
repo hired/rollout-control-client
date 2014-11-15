@@ -1,0 +1,31 @@
+{
+  "name": "rollout-control-client",
+  "version": "0.0.1",
+  "description": "Client for rollout_control - https://github.com/hired/rollout_control",
+  "main": "./lib/rollout-control-client.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hired/rollout-control-client"
+  },
+  "keywords": [
+    "hubot",
+    "rollout",
+    "rollout_control",
+    "chat ops"
+  ],
+  "author": "aaronroyer",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hired/rollout-control-client/issues"
+  },
+  "homepage": "https://github.com/hired/rollout-control-client",
+  "dependencies": {
+    "superagent": "^0.21.0"
+  },
+  "devDependencies": {
+    "coffee-script": "~1.7.1"
+  },
+  "scripts": {
+    "prepublish": "coffee -c -o lib src"
+  }
+}
