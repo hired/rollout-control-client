@@ -1,6 +1,6 @@
 {
   "name": "rollout-control-client",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Client for rollout_control - https://github.com/hired/rollout_control",
   "main": "./lib/rollout-control-client.js",
   "repository": {
